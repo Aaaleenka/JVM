@@ -23,5 +23,10 @@
 
 ### Наглядная картинка ###
 
-![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Aaaleenka/JVM/blob/master/example.png">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/Aaaleenka/JVM/blob/master/example.png">
+ <img alt="YOUR-ALT-TEXT" src="https://github.com/Aaaleenka/JVM/blob/master/example.png">
+</picture>
+
 Сборщик мусора, наверное, может удалять переменную i в выполненном коде, т.к. на нее никто не ссылается. 
